@@ -16,3 +16,5 @@ class Store extends React.Component{
 }
 
 export default Store
+
+// practice react with this app for movies
