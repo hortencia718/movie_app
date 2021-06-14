@@ -1,11 +1,49 @@
+body {
+  background-color: rgb(161, 193, 235);
+}
+
+
+h1{
+  color:brown;
+  font-size: 3rem;
+}
+
+.container {
+  border: .1em solid #918983;
+  background-color: #f5eeef;
+  border-radius: 5px;
+  padding: 1em;
+  width: 10%;
+  margin: auto;
+  margin-bottom: 1em;
+  display: table;
+}
+
+
+.container img {
+  justify-items: center;
+  max-width: 60px;
+  width: 100%;
+  margin-right: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
+button {
+  padding:12px;
+  border-radius: 2px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:crimson;
+}
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
+} */
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -14,7 +52,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #f54627;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
